@@ -1,0 +1,4 @@
+const MODAL1_KEY = "MODAL1_KEY";
+const MODAL2_KEY = "MODAL2_KEY";
+
+export { MODAL1_KEY, MODAL2_KEY };

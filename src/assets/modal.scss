@@ -1,0 +1,21 @@
+$modalBackgroundColor: #0000007d;
+
+$contentBackgroundColor: #f8f8f8;
+
+$baseContentRounded: 4px;
+
+body:has(.ui-modal.--open) {
+  overflow: hidden;
+}
+
+html {
+  margin-left: calc(100vw - 100%);
+  margin-right: 0;
+}
+
+@media screen and (min-width: 960px) {
+  html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+  }
+}
